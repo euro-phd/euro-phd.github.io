@@ -169,7 +169,7 @@ x=flag
 ```
 
 This code allowed me to open a file with the name `flag`, so the first task was done. We are left with 'read file' and 'print flag.' I had no idea how to read files without using the `read` method (which will generate `Call` in AST), so I switched to printing. It was easy. I just copied the code from the sample above.
-```python
+```
 user@wa1tf0r.me:$ python3 treebox.py 
 -- Please enter code (last line must contain only --END)
 def func(arg):return arg.__name__ 
@@ -188,7 +188,7 @@ FunctionDef(name='func', args=arguments(posonlyargs=[], args=[arg(arg='arg')], k
 Now we know how to open files and how to print. All we need is to read the file content. The most obvious way requires the use of the `read` method, which will not pass our filter, so there must be another way. After searching, I found a thread on [StackOverflow](https://stackoverflow.com/questions/17949508/python-read-all-text-file-lines-in-loop) that used a similar technique to read files without the `read` method.
 
 
-```python
+```
 user@wa1tf0r.me:$ python3 treebox.py 
 -- Please enter code (last line must contain only --END)
 def func(arg):return arg.__name__ 
