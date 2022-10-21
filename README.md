@@ -1,6 +1,6 @@
 ## whoami
 
-Cyber ninja, CTF player, cybersecurity researcher
+PNPT, Cyber ninja, CTF player, cybersecurity researcher
 
 ### my work
 
@@ -19,5 +19,9 @@ Cyber ninja, CTF player, cybersecurity researcher
 [Twitter](https://twitter.com/wa1tf0r_me) 
 [GitHub](https://github.com/euro-phd/)
 
+### Certifications
+![PNPT badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/60357262)
+
 ---
 *Link will be added soon
+
