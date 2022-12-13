@@ -5,6 +5,7 @@ PNPT, CTF player, cybersecurity researcher
 ### my work
 
 - [Treebox](https://euro-phd.github.io/Google%20CTF/2022/Treebox) from Google CTF ([Twitter](https://twitter.com/wa1tf0r_me/status/1549707682583642113)  version)
+- [Port forwarding using TP-Link](https://euro-phd.github.io/Random/TP-Link%20Routers)
 - [R lang reverse shell](#) used for custom project*
 - [OpenCPU nuclei temaplate](https://github.com/projectdiscovery/nuclei-templates/pull/6041/commits) (co-authored) 
 - some tinkering with [john](https://github.com/openwall/john) custom modules
