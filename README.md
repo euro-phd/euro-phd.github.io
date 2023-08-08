@@ -1,6 +1,6 @@
 ## whoami
 
-PNPT, CTF player, cybersecurity researcher
+eCPPT, PNPT, CTF player, cybersecurity researcher
 
 ### my work
 
