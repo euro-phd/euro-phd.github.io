@@ -27,7 +27,7 @@ eCPPT, PNPT, CTF player, cybersecurity researcher
 
 ### Certifications
 ![PNPT badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/60357262)
-
+![eCPPTv2 badge](https://elearnsecurity.com/wp-content/uploads/eCPPTv2.png)
 ---
 *Link will be added soon
 
