@@ -13,6 +13,10 @@ eCPPT, PNPT, CTF player, cybersecurity researcher
 - Hardware hacking intro course*
   - [Arduino firmware dump example](https://pages.wa1tf0r.me/Hardware%20Intro/00_Arduino_firmware_dump_example.ino)
   - [Arduino serial communication](https://pages.wa1tf0r.me/Hardware%20Intro/01_Arduino_serial_communication.ino)
+- [jsoneer](https://github.com/euro-phd/jsoneer) tool (in development) for creating payloads to fuzz API and other stuff with json input
+- [Azure shortlist](#) useful notes for Azure testing
+- Handy [one-liners](https://github.com/euro-phd/oneliners)
+- [kirby-rs](https://github.com/euro-phd/kirby-rs) - kerberos & Rust   
 
 ### recommended resourses
  - [SecList](https://github.com/danielmiessler/SecLists/)
