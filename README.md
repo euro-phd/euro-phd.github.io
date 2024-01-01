@@ -18,6 +18,11 @@ eCPPT, PNPT, CTF player, cybersecurity researcher
 - Handy [one-liners](https://github.com/euro-phd/oneliners)
 - [kirby-rs](https://github.com/euro-phd/kirby-rs) - kerberos & Rust   
 
+
+### blogposts
+- [Rust, ARM and cross-compilation](#)
+- [Reverse engineering journey](#)
+
 ### recommended resourses
  - [SecList](https://github.com/danielmiessler/SecLists/)
  - [hashcat](https://hashcat.net/hashcat/)
