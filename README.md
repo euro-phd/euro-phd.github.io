@@ -22,6 +22,7 @@ eCPPT, PNPT, CTF player, cybersecurity researcher
 ### blogposts
 - [Rust, ARM and cross-compilation](#)
 - [Reverse engineering journey](#)
+- [Fuzz-buzz-fuzzbuzz or next steps in AFL use](#)
 
 ### recommended resourses
  - [SecList](https://github.com/danielmiessler/SecLists/)
