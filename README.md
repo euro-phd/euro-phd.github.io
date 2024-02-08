@@ -16,7 +16,8 @@ eCPPT, PNPT, CTF player, cybersecurity researcher
 - [jsoneer](https://github.com/euro-phd/jsoneer) tool (in development) for creating payloads to fuzz API and other stuff with json input
 - [Azure shortlist](#) useful notes for Azure testing
 - Handy [one-liners](https://github.com/euro-phd/oneliners)
-- [kirby-rs](https://github.com/euro-phd/kirby-rs) - kerberos & Rust   
+- [kirby-rs](https://github.com/euro-phd/kirby-rs) - kerberos & Rust (in development)
+- [fuzzing-notes](#) - fuzzing 101 and useful notes  
 
 
 ### blogposts
