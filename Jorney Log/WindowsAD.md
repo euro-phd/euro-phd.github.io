@@ -15,7 +15,8 @@ I mentioned SMB relay, next will come LDAP relay, but in reality there are **MUC
 ## Some newer stuff
 ### Coerse - Come to me
 You can't ask a user to connect to your SMB share for the relay, but you can ask a PC (or even better - a DC!) to do this. Coerse techniques allow authenticated attackers (domain user is usually enough, but on unpatched systems, you can even try unauthenticated) to get the machine account hash and relay it somewhere else for exploitation. On one test, I got it working like that: course on DC1 -> relay to LDAP on DC2 -> add a computer with RBCD -> DA credentials.
-> My testing shows that the course from Server 2019 to Server 2019 may not work, while Server 2016 is much more permissive and accepts coerced connections. However, I didn't actually discover why. [Twitter post](https://x.com/wa1tf0r_me/status/1719707494841270305?s=20)
+> My testing shows that the course from Server 2019 to Server 2019 may not work, while Server 2016 is much more permissive and accepts coerced connections. However, I didn't actually discover why. [Twitter post](https://x.com/wa1tf0r_me/status/1719707494841270305)
+
 ### LDAP signing and channel binding - So you want me to add a new computer
 For signing we have the same story as for SMB, but channel binding is worth explaining at least a little bit. In Windows AD you often come across LDAP services (or even LDAPS), also you know that [ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump) can extract a lot of useful data. When it comes to security and LDAPS is not an option (let's say you just don't like the idea of moving from port 389 to 636) you can use an LDAP connection to later upgrade to secure connection using TLS/SSL, and if channel binding is not enforced, an attacker can abuse that.
 > You can get more info here [TRIMARC post](https://www.hub.trimarcsecurity.com/post/ldap-channel-binding-and-signing)
