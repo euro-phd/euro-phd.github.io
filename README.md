@@ -21,9 +21,10 @@ eCPPT, PNPT, CTF player, cybersecurity researcher
 
 
 ### blogposts
+- [On Windows AD](https://pages.wa1tf0r.me/Jorney%20Log/Windows)
 - [Rust, ARM and cross-compilation](#)
 - [Reverse engineering journey](#)
-- [Fuzz-buzz-fuzzbuzz or next steps in AFL use](#)
+- [Fuzz-buzz-fuzzbuzz or next steps in AFL usege](#)
 
 ### recommended resourses
  - [SecList](https://github.com/danielmiessler/SecLists/)
